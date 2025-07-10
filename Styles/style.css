@@ -13,6 +13,9 @@
     background-size: auto, 700px auto;
 
 }
+.secondary-bg{
+   background-color: #fcf4ee;    
+}
 /* Nav Styles */
 nav{
     display: flex;
@@ -72,4 +75,34 @@ margin: 0 35px 0 200px;
 }
 .banner-pic{
     width: 580px;
+}
+/* Section style */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Style */
+.about{
+    border-radius: 10px;
+    padding:130px 150px ;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
